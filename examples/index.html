@@ -12,19 +12,18 @@
     <div class="form-group">
         <label>Form Ohne Icon</label>
     </div>
-    <button type="submit" class="btn btn-primary"> Absenden</button>
+    <button type="submit" data-form-loading-animation class="btn btn-primary"> Absenden</button>
 </form>
 
 <form>
     <div class="form-group">
         <label>Form Mit Icon</label>
     </div>
-    <button type="submit" class="btn btn-primary"><i class="fa fa-fw fa-search"></i> Absenden</button>
+    <button type="submit" data-form-loading-animation class="btn btn-primary"><i class="fa fa-fw fa-search"></i> Absenden</button>
 </form>
 
 <script src="../dist/form-loading-animation.js"></script>
-<script>formLoadingAnimation(document.querySelectorAll('button')[0])</script>
-<script>formLoadingAnimation(document.querySelectorAll('button')[1])</script>
+<script>formLoadingAnimation();</script>
 
 </body>
 </html>

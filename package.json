@@ -1,6 +1,6 @@
 {
   "name": "form-loading-animation",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "dist/form-loading-animation.js",
   "repository": "git@github.com:PascaleBeier/form-loading-animation.git",
   "author": "Pascale Beier <mail@pascalebeier.de>",
